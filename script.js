@@ -7,15 +7,15 @@ const printEvenNumber = () => {
   }
 };
 
-printEvenNumber();
+export default printEvenNumber;
+
+// printEvenNumber();
 
 // for of: lấy value
 // for in: lấy key
 
-const animals = ['mèo', 'chó', 'gấu'];
-console.log(animals);
-animals.forEach((item) => {
-  console.log(item);
-}); // 1 cách viết arrow function
-
-
+// const animals = ['mèo', 'chó', 'gấu'];
+// console.log(animals);
+// animals.forEach((item) => {
+//   console.log(item);
+// }); // 1 cách viết arrow function
